@@ -3,19 +3,28 @@
   "version": "1.0.0",
   "compatibility": ">=5.0.0",
   "sdk": 3,
+  "brandColor": "#0167B0",
   "platforms": [
     "local"
   ],
   "name": {
-    "en": "Novoferm"
+    "en": "Novoferm",
+    "fr": "Novoferm"
   },
   "description": {
-    "en": "Adds support for Novoferm radio devices."
+    "en": "Adds support for Novoferm radio devices.",
+    "fr": "Support pour les appareils radio Novoferm."
+  },
+  "tags": {
+    "en": ["garage", "door", "opener", "novoferm"],
+    "fr": ["garage", "porte", "ouverture", "novoferm"]
   },
   "category": [
     "appliances"
   ],
-  "permissions": [],
+  "permissions": [
+    "homey:wireless:433"
+  ],
   "images": {
     "small": "/assets/images/small.png",
     "large": "/assets/images/large.png",
@@ -23,6 +32,22 @@
   },
   "author": {
     "name": "Julien Martin",
-    "email": "reykozz15@gmail.com"
-  }
+    "email": "pm.julienmartin+homey@gmail.com"
+  },
+  "contributors": {
+    "developers": [
+      {
+        "name": "Julien Martin"
+      }
+    ],
+    "translators": [
+      {
+        "name": "Julien Martin"
+      }
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/Julien-Martin/com.novoferm.community/issues"
+  },
+  "source": "https://github.com/Julien-Martin/com.novoferm.community"
 }
