@@ -60,5 +60,28 @@
   "bugs": {
     "url": "https://github.com/Julien-Martin/com.novoferm.community/issues"
   },
-  "source": "https://github.com/Julien-Martin/com.novoferm.community"
+  "source": "https://github.com/Julien-Martin/com.novoferm.community",
+  "drivers": [
+    {
+      "name": {
+        "en": "Novotron 522"
+      },
+      "class": "garagedoor",
+      "capabilities": [
+        "garagedoor_closed"
+      ],
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "rf433"
+      ],
+      "images": {
+        "small": "/drivers/522/assets/images/small.png",
+        "large": "/drivers/522/assets/images/large.png",
+        "xlarge": "/drivers/522/assets/images/xlarge.png"
+      },
+      "id": "522"
+    }
+  ]
 }
